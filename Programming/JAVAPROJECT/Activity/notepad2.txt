@@ -1,0 +1,4 @@
+p1,Headphone,250.85
+p2,Powerbank,2500.25
+p3,HandMixer,3200.73
+p4,CoffeeMug,75.75
