@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480">
+  <defs>
+    <linearGradient id="grad-leona" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffb347" />
+      <stop offset="100%" stop-color="#ff6f00" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="480" fill="url(#grad-leona)" rx="32" />
+  <circle cx="180" cy="150" r="90" fill="rgba(255,255,255,0.25)" />
+  <polygon points="180,260 230,340 130,340" fill="rgba(255,255,255,0.3)" />
+  <path d="M70 360 H290" stroke="rgba(0,0,0,0.2)" stroke-width="6" />
+  <text x="30" y="270" fill="#4c1f06" font-size="48" font-family="'Segoe UI', sans-serif" font-weight="700">LEONA</text>
+  <text x="30" y="310" fill="#5f2c10" font-size="20" font-family="'Segoe UI', sans-serif">THE RADIANT DAWN</text>
+</svg>

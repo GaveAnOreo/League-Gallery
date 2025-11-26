@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480">
+  <defs>
+    <linearGradient id="grad-ashe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6dd3ff" />
+      <stop offset="100%" stop-color="#0f3a63" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="480" fill="url(#grad-ashe)" rx="32" />
+  <path d="M40 340 L180 120 L320 340 Z" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="5" />
+  <circle cx="185" cy="190" r="70" fill="rgba(255,255,255,0.18)" />
+  <circle cx="100" cy="360" r="110" fill="rgba(255,255,255,0.12)" />
+  <text x="30" y="270" fill="#e4f4ff" font-size="48" font-family="'Segoe UI', sans-serif" font-weight="700">ASHE</text>
+  <text x="30" y="310" fill="#c6e9ff" font-size="20" font-family="'Segoe UI', sans-serif">THE FROST ARCHER</text>
+</svg>

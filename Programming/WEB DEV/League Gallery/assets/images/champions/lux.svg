@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480">
+  <defs>
+    <linearGradient id="grad-lux" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3b0" />
+      <stop offset="100%" stop-color="#ff8ec7" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="480" fill="url(#grad-lux)" rx="32" />
+  <circle cx="180" cy="160" r="80" fill="rgba(255,255,255,0.4)" />
+  <circle cx="260" cy="320" r="100" fill="rgba(255,255,255,0.2)" />
+  <circle cx="100" cy="360" r="90" fill="rgba(255,255,255,0.18)" />
+  <text x="30" y="270" fill="#5d1f4b" font-size="48" font-family="'Segoe UI', sans-serif" font-weight="700">LUX</text>
+  <text x="30" y="310" fill="#7f2c66" font-size="20" font-family="'Segoe UI', sans-serif">LADY OF LUMINOSITY</text>
+</svg>

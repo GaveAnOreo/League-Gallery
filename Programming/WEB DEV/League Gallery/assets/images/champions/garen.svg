@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480">
+  <defs>
+    <linearGradient id="grad-garen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1c2e" />
+      <stop offset="100%" stop-color="#1e88e5" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="480" fill="url(#grad-garen)" rx="32" />
+  <rect x="150" y="80" width="60" height="260" fill="rgba(255,255,255,0.15)" />
+  <rect x="110" y="150" width="140" height="200" fill="rgba(255,255,255,0.12)" />
+  <path d="M80 360 H280" stroke="#f0c674" stroke-width="8" />
+  <text x="30" y="270" fill="#f5faff" font-size="48" font-family="'Segoe UI', sans-serif" font-weight="700">GAREN</text>
+  <text x="30" y="310" fill="#d0e0ff" font-size="20" font-family="'Segoe UI', sans-serif">MIGHT OF DEMACIA</text>
+</svg>
