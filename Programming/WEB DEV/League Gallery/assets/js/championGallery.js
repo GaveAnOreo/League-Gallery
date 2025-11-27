@@ -170,7 +170,7 @@
 
   const emphasizeThe = (text = '') => text.replace(/\bthe\b/gi, (match) => `T${match.slice(1).toLowerCase()}`);
 
-  const getSplashUrl = (champion) => champion.image;
+  
 
   const getLoadingMeta = (championId) => {
     if (state.loadingMeta.has(championId)) {
@@ -249,7 +249,7 @@
     const safeTitle = escapeHtml(emphasizeThe(champion.title));
     const safeBlurb = escapeHtml(champion.blurb || 'No lore available right now.').replace(/\n/g, '<br>');
     const roles = buildRoleBadges(champion.tags);
-    const splash = getSplashUrl(champion);
+    const splash = champion.image;
 
     return `
       <div class="detail-hero mb-4">
@@ -298,7 +298,7 @@
     const safeName = escapeHtml(champion.name);
     const safeTitle = escapeHtml(champion.title);
     const roles = buildRoleBadges(champion.tags);
-    const splash = getSplashUrl(champion);
+    const splash = champion.image;
     const { team } = getLoadingMeta(champion.id);
 
     return `
@@ -461,7 +461,13 @@
     const pageItems = filtered.slice(startIndex, endIndex);
 
     updateChampionCount(startIndex + 1, endIndex, total);
-    elements.championList.innerHTML = pageItems.map(createCard).join('');
+    let galleryHtml = '<div class="row gx-3 gy-4 justify-content-center">';
+    for (let i = 0; i < pageItems.length; i += 1) {
+      const c = pageItems[i];
+      galleryHtml += `<div class="col-6 col-md-4 col-lg-3">${createCard(c)}</div>`;
+    }
+    galleryHtml += '</div>';
+    elements.championList.innerHTML = galleryHtml;
     renderPagination(totalPages);
   };
 
