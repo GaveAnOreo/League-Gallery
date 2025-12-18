@@ -1,5 +1,5 @@
 (() => {
-  const CHAMPIONS_PER_PAGE = 8;
+  const CHAMPIONS_PER_PAGE = Number.MAX_SAFE_INTEGER;
 
   const champions = [
     {
